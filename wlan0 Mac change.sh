@@ -1,0 +1,1 @@
+ifconfig wlan0 hw ether DC:EF:CA:6B:BC:$(( $RANDOM % 50 + 1 ))
